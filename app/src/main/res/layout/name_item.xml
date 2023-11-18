@@ -8,10 +8,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txtName"
+        android:id="@+id/nameTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact Name"
+        android:text="Name"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484">
+        app:layout_constraintVertical_bias="0.483">
 
     </TextView>
 

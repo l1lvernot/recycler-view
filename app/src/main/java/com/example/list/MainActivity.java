@@ -18,9 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-        nameView = findViewById(R.id.contactsRecView);
+        nameView = findViewById(R.id.nameView);
 
         ArrayList<Name> names = new ArrayList<>();
         names.add(new Name("Egor Patao 1"));
