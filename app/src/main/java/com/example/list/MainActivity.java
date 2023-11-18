@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         nameView = findViewById(R.id.contactsRecView);
 
         ArrayList<Name> names = new ArrayList<>();
-        names.add(new Name("Buben Patao 1"));
-        names.add(new Name("Buben Patao 2"));
-        names.add(new Name("Buben Patao 3"));
-        names.add(new Name("Buben Patao 69"));
-        names.add(new Name("Buben Patao infinity"));
+        names.add(new Name("Egor Patao 1"));
+        names.add(new Name("Egor Patao 2"));
+        names.add(new Name("Egor Patao 3"));
+        names.add(new Name("Egor Patao 69"));
+        names.add(new Name("Egor Patao infinity"));
 
         ViewNameAdapter adapter = new ViewNameAdapter(this);
         adapter.setNames(names);
